@@ -5,7 +5,7 @@ double inputCoordinate(string text)
 	double coodinate = double.Parse(Console.ReadLine() ?? "");
 	return (coodinate);
 }
-// После упрощения аравнения x=(b2-b1)/(k1-k2) , y=k1(b2-b1)/(k1-k2)+b1
+// После упрощения уравнения x=(b2-b1)/(k1-k2) , y=k1(b2-b1)/(k1-k2)+b1
 Console.Clear();
 Console.WriteLine("Точка пересечения двух прямых заданных уравнением ");
 double k1 = inputCoordinate("k1");
